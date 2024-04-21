@@ -1,0 +1,27 @@
+.main{
+    background-color: black;
+    height: 100vw;
+}
+.btn-block{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn{
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 4%;
+    background-color: rgb(248, 245, 74);
+    
+    border: 0;
+    font-size: large;
+}
+.btn-active{
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 4%;
+    background-color: rgb(248, 245, 74);
+    border: 0;
+    font-weight: bold;
+    font-size:larger;
+}

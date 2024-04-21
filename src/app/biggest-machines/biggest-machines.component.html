@@ -1,0 +1,13 @@
+<div class="main">
+    <div class="machine-info">
+       
+         <app-machine [machine]="currentItem"></app-machine>
+            
+    </div>
+    <div class="btn-block">
+        @for(item of biggestMachines.machines; track item.name)
+        {
+            <button [ngClass]="setClassButton(item.type)" (click)="setCurrentItem(item)">{{item.type}}</button>
+        }
+    </div>
+</div>
